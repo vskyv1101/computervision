@@ -33,6 +33,11 @@ qmnist_testset = QMNIST(root='./data', what='test', download=True, transform=tra
 fashionMNIST_trainset = datasets.fashionMNIST(root='./data', split='train', download=True, transform=transform)
 fashionMNIST_testset = datasets.fashionMNIST(root='./data', split='test', download=True, transform=transform)
 ```
+### QMNIST
+```python
+QMNIST_trainset = datasets.QMNIST(root='./data', split='train', download=True, transform=transform)
+QMNIST_testset = datasets.QMNIST(root='./data', split='test', download=True, transform=transform)
+```
 ## FashionMNIST
 ```python
 import torch
